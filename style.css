@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 2.5px rgba(0,0,0,0.8);
+  margin: 0;
+}
+
+p {
+  font-size: 3rem;
+  color: #9bbfbf;
+  text-shadow: 1px 1px 2.5px rgba(0,0,0,0.8);
+  margin: 0;
+}
+
+li {
+  font-size: 2rem;
+  color: #ccc7b8;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px dotted #d3e046;
+}
+
+input {
+  margin: 0 .25rem;
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  border: 1px dotted rgba(133,180,242,1);
+}
